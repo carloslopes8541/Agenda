@@ -17,7 +17,7 @@ import { RoomService } from './room.service';
     CreateRoomComponent,
     RoomDetailsComponent,
     RoomListComponent,
-    UpdateRoomComponent
+    UpdateRoomComponent,
   ],
   imports: [
     BrowserModule,
