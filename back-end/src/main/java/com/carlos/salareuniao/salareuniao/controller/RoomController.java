@@ -4,11 +4,8 @@ import com.carlos.salareuniao.salareuniao.exception.ResourceNotFoundException;
 import com.carlos.salareuniao.salareuniao.model.Room;
 import com.carlos.salareuniao.salareuniao.repository.RoomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
-
 import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
